@@ -1,0 +1,33 @@
+.CardItem{
+    background-color: rgb(121, 167, 226);
+    width: 250px;
+    height: 370px;
+    border: 5px solid black;
+    text-align: center;
+    border-radius: 8px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+.CardItem picture img{
+    width: 150px;
+    height: 150px;
+    border-radius: 4px;
+    margin-top: 25px;
+}
+
+.CardItem .ItemFooter{
+    margin-top: 22px;
+}
+
+.CardItem .ItemFooter a{
+    border: 2px solid rgb(248, 238, 146);
+    padding: 10px;
+    background-color: black;
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 5px;
+}

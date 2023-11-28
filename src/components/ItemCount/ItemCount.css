@@ -1,0 +1,27 @@
+.Counter{
+    border: 3px solid black;
+    padding: 5px;
+    background-color: rgb(248, 238, 146);
+    border-radius: 10px;
+}
+
+.Counter .Controls{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    font-size: 30px;
+}
+
+.Counter .Controls .Button{
+    padding: 8px;
+    background-color: black;
+    color: white;
+}
+
+div .Button{
+    padding: 8px;
+    background-color: black;
+    color: white;
+    margin: 8px;
+    border-radius: 10px;
+}

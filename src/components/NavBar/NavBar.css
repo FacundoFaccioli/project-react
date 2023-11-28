@@ -1,0 +1,30 @@
+.NavBar{
+    background-color: rgb(121, 167, 226);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100px;
+    padding: 15px;
+}
+
+.NavBar a{
+    color: black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-decoration: none;
+}
+
+.NavBar h3{
+    font-weight: bolder;
+    font-size: 40px;
+}
+
+.NavBar .Categories a{
+    padding: 18px;
+    background-color: rgb(248, 238, 146);
+    color: black;
+    border-radius: 5px;
+    box-shadow: 3px white solid;
+    font-size: 16px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-left: 10px;
+}
