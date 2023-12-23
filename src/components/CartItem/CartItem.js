@@ -1,9 +1,15 @@
-const CartItem = ({id, name, price, quantity}) => {
+import "./CartItem.css"
+const CartItem = ({id, name, price, quantity, onPressDeleteButton}) => {
     return (
-        <div>
-            <p>{name}</p>
-            <p>{price}</p>
-            <p>{quantity}</p>
+        <div className={"container"}>
+            <div className={"inside-container"}>
+                <p>{name}</p>
+                <p>Cantidad: {quantity}</p>
+                <p>Precio x Unidad: {price}</p>
+                <div className={"delete-button"} onClick={() => onPressDeleteButton(id)}>
+                    x
+                </div>
+            </div>
         </div>
         )
 }

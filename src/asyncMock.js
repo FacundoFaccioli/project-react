@@ -1,3 +1,6 @@
+import {doc, getDoc} from 'firebase/firestore'
+import {db} from './services/firebase/firebaseConfig'
+
 const products = [
     {
         id: '1',
@@ -20,12 +23,11 @@ export const getProducts = () => {
     })
 }
 
-export const getProductById = (productId) => {
-    return new Promise((resolve) => {
-        setTimeout(() => {
-            resolve(products.find(prod => prod.id === productId))
-        }, 500)
-    })
+export const getProductById = async (productId) => {
+    // get product where product id firebase
+    const productRef = doc(db, 'products', productId)
+    const productSnap = await getDoc(productRef)
+    return productSnap.data()
 }
 
 export const getProductsByCategory = (productsCategory) => {

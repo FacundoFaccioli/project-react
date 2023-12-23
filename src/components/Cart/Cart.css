@@ -1,0 +1,35 @@
+.total-container {
+    text-align: center;
+}
+
+.clear-cart-container {
+    text-align: center;
+}
+
+.full-width-button {
+    background-color: #78a6e0;
+    border: none;
+    cursor: pointer;
+    font-size: 20px;
+    padding: 10px 15px 10px 15px;
+    margin: 5px;
+    color: white;
+    border-radius: 5px;
+    text-align: center;
+
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+
+
+
+}
+
+.checkout-link {
+    color: black;
+}
+
+a {
+    text-decoration: none;
+}
